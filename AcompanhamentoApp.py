@@ -8,7 +8,4 @@ with st.sidebar:
 
     
 m = leafmap.Map()
-coluna1 = st.columns([1])
-
-with coluna1:
-    m.to_streamlit(width=800, height=800)
+m.to_streamlit(width=800, height=800)
