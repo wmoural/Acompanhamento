@@ -7,7 +7,7 @@ with st.sidebar:
     st.title('Acompanhamento de pesquisas')
 
     
-col1 = st.colmns(1)
+col1 = st.columns(1)
 
 with col1:
     m = leafmap.Map()
