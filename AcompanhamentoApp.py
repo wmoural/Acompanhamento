@@ -1,7 +1,7 @@
 import leafmap.foliumap as leafmap
 import pandas as pd
 import streamlit as st
-
+import geopandas as gpd
 
 with st.sidebar:
     st.title('Acompanhamento de pesquisas')
