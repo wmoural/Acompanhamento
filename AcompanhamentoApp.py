@@ -10,4 +10,4 @@ with st.sidebar:
 m = leafmap.Map()
 
 with st.container():
-    m.to_streamlit(width=800)
+    m.to_streamlit(width=1200, width=1000)
