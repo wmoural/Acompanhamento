@@ -14,4 +14,4 @@ try:
     m.add_gdf(shp)
     m.to_streamlit(width=800, height=800)
 except:
-    
+  pass  
