@@ -6,6 +6,12 @@ import streamlit as st
 with st.sidebar:
     st.title('Acompanhamento de pesquisas')
 
-    
+shp = st.fileuploader('Bufo')
+
 m = leafmap.Map()
-m.to_streamlit(width=800, height=800)
+
+try:
+    m.add_gdf(shp)
+    m.to_streamlit(width=800, height=800)
+except:
+    
