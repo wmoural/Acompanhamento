@@ -11,7 +11,7 @@ arquivo = st.file_uploader('Bufo', type=["gpkg"])
 
 m = leafmap.Map()
 
-if shp is not None:
+if arquivo is not None:
     shp = gpd.read_file(arquivo)
     m.add_gdf(shp)
     m.to_streamlit(width=800, height=800)
