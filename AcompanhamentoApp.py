@@ -6,12 +6,10 @@ import streamlit as st
 with st.sidebar:
     st.title('Acompanhamento de pesquisas')
 
-shp = st.fileuploader('Bufo')
+shp = st.fileuploader('Bufo', type=["gpkg"])
 
 m = leafmap.Map()
 
-try:
+if shp is not None:
     m.add_gdf(shp)
     m.to_streamlit(width=800, height=800)
-except:
-  pass  
