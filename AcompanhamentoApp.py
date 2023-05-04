@@ -7,8 +7,7 @@ with st.sidebar:
     st.title('Acompanhamento de pesquisas')
 
     
-col1 = st.columns(1)
+m = leafmap.Map()
 
-with col1:
-    m = leafmap.Map()
+with st.container():
     m.to_streamlit(width=800)
