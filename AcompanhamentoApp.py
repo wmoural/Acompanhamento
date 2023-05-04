@@ -6,8 +6,6 @@ import streamlit as st
 with st.sidebar:
     st.title('Acompanhamento de pesquisas')
 
- 
-
 with st.columns(1):
         
     m = leafmap.Map()
