@@ -6,7 +6,7 @@ import streamlit as st
 with st.sidebar:
     st.title('Acompanhamento de pesquisas')
 
-shp = st.fileuploader('Bufo', type=["gpkg"])
+shp = st.file_uploader('Bufo', type=["gpkg"])
 
 m = leafmap.Map()
 
