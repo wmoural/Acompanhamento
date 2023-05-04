@@ -5,7 +5,7 @@ import streamlit as st
 
 with st.sidebar:
     st.title('Acompanhamento de pesquisas')
-    st.selectbox('1','2','3')
+
  
 
 with st.columns(1):
