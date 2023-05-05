@@ -4,3 +4,4 @@ ipyleaflet==0.17.2
 pandas==1.5.3
 leafmap==0.19.0
 streamlit==1.20.0
+openpyxl==3.0.10
