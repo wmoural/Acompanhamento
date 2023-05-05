@@ -13,7 +13,7 @@ def LerBD(url):
     df = pd.read_excel(url)
     return df
 
-Edificacoes = LerBD('https://docs.google.com/spreadsheets/d/1byWj7N81GRfk2mB3TfyTELGQJ8azDodk/export?format=xlsx&ouid=107947539613079650789&rtpof=true&sd=true')
+Edificacoes = LerBD('https://filebin.net/akuqehaadthuxb54/edifica__es.xlsx')
 
 
 if Edificacoes is not None:
