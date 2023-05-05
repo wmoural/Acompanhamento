@@ -23,7 +23,7 @@ if Edificacoes is not None:
 
 
 #Títulos
-st.title(':green[Acompanhamento de pesquisas]')
+st.title(':green[SIGWEB | ] Levantamentos de campo')
 st.markdown('Serviço de acompanhamento e análise de realização de pesquisas de campo em domicílios urbanos ou rurais.')
 
 
